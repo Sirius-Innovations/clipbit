@@ -32,7 +32,7 @@ Clipbit was build using
 
 ## Live Demo
 
-[Clipbit deploy]()
+[Clipbit deploy](https://clipbit.vercel.app/)
 
 [Figma Design File](https://www.figma.com/file/hFA8aohMyohL9LpBWC12Fb/Clipbit?type=design&node-id=0%3A1&t=SfKOGRFo4AMyGmmc-1)
 
