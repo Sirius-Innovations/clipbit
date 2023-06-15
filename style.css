@@ -1,1 +1,431 @@
-/* styles here */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    font-family: 'Manrope', sans-serif;
+    color: #1F4D58;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.containermain {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.containermain > img {
+    margin: 40px;
+}
+
+.howworks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.howworks > h1 {
+    text-align: left;
+}
+
+.howrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+button.wallet {
+    border: none;
+    background-color: #D0EA79;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #1F4D58;
+}
+
+button.wallet:hover {
+    background-color: #1F4D58;
+    color: white;
+}
+
+.rowstart {
+    display: flex;
+    
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 40%;
+}
+
+.rowend {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-start;
+    width: 40%;
+}
+
+p {
+    text-align: left;
+}
+
+button.start {
+    background-color: #D0EA79;
+    border: none;
+    color: #1F4D58;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+button.start:hover {
+    background-color: #1F4D58;
+    color: white;
+}
+
+
+.sidebar {
+    background-color: #1F4D58;
+    height: 100vh;
+    width: 100px;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 60px;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.logout {
+    padding: 20px 0;
+    gap: 30px;
+    width: 100%;
+
+}
+
+button.logout {
+    
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px 0;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+button.logout:hover {
+    background-color: #DBE9EC;
+    color: #1F4D58;
+}
+
+.mainbar {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.maincol {
+    display:flex;
+    flex-direction: column;
+    width: 120vh;
+    padding: 10px 20px;
+    
+    height: 95vh;
+}
+
+.passcol {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60vh;
+    height: 90vh;
+    
+}
+
+h1 {
+    
+    font-size: 2rem;
+}
+
+.finance {
+    display: flex;
+    flex-direction: column;
+    background-color: #DBE9EC;
+    border-radius: 10px;
+    height: 40%;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+
+.expenses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #1F4D58;
+    background-color: white;
+    margin: 0;
+    padding: 5px 30px;
+    
+}
+
+.totals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    color: #D0EA79;
+    width: 10%;
+    text-align: center;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 10px;
+}
+
+button.addnew {
+    background-color: #DBE9EC;
+    border: none;
+    height: 30px;
+    color: #1F4D58;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.addnew:hover {
+    background-color: #1F4D58;
+    color: white;
+}
+
+.notes {
+    height: 30%;
+    width: 100%;
+    color: #1F4D58;
+}
+
+.notescontainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.notesheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.notescontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+
+.note {
+    background-color: #DBE9EC;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;    
+}
+
+button.newnote {
+    border: none;
+    background-color: #D0EA79;
+    color: #1F4D58;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button.newnote:hover {
+    background-color: #1F4D58;
+    color: white;
+}
+
+.passwords {
+    color: #1F4D58;
+    background-color: white;
+    height: 85%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.passcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.passfield {
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    height: 1.2rem;
+    padding: 2px
+}
+
+button.newpass {
+    background-color: #D0EA79;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #1F4D58;
+}
+
+button.newpass:hover {
+    background-color: #1f4d58;
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.logo {
+    color: #D0EA79;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button.connect {
+    background-color: #DBE9EC;
+    border: none;
+    color: #1F4D58;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button.connect:hover {
+    background-color: #1F4D58;
+    color: white;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    display: flex  ;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.foothead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer > p {
+    color: #1F4D58;
+    
+    
+    text-align: center;
+}
+
+p.green {
+    color: #D0EA79;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
